@@ -13,7 +13,9 @@
 </svelte:head>
 
 <div class="container mx-auto px-4 py-12 text-center md:py-20">
-	<h1 class="mb-8 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+	<h1
+		class="mb-6 text-center text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl dark:text-gray-200"
+	>
 		{en.locations.pageTitle}
 	</h1>
 	<p class="text-lg text-gray-600 dark:text-gray-400">

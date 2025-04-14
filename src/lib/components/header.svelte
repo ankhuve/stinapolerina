@@ -39,7 +39,7 @@
 	<nav class="mx-auto flex h-12 items-center justify-between px-4 py-3 md:px-6">
 		<a
 			href="/"
-			class="text-violet-300 md:text-2xl md:font-light dark:text-violet-500"
+			class="text-xl text-violet-300 md:text-2xl md:font-light dark:text-violet-300"
 			onclick={closeMobileMenu}
 		>
 			stinapolerina
@@ -91,7 +91,7 @@
 		<div class="flex items-center md:hidden">
 			<button
 				onclick={toggleMobileMenu}
-				class="inline-flex cursor-pointer items-center justify-center rounded-md text-gray-700 hover:bg-gray-100 hover:text-violet-400 focus:ring-2 focus:ring-violet-500 focus:outline-none focus:ring-inset dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-violet-400"
+				class="inline-flex cursor-pointer items-center justify-center rounded-md p-1 text-gray-700 hover:bg-gray-100 hover:text-violet-400 focus:ring-2 focus:ring-violet-500 focus:outline-none focus:ring-inset dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-violet-400"
 				aria-controls="mobile-menu"
 				aria-expanded={mobileMenuOpen}
 				aria-label="Open main menu"

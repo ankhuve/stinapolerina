@@ -17,7 +17,9 @@
 
 <div class="container mx-auto px-4 py-12 md:py-20">
 	<div>
-		<h1 class="text-center text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+		<h1
+			class="text-center text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl dark:text-gray-200"
+		>
 			{en.pricing.pageTitle}
 		</h1>
 		<h2
@@ -37,7 +39,9 @@
 			<p class="mb-4 text-xl font-bold text-gray-800 dark:text-gray-200">
 				{en.pricing.studio.price}
 			</p>
-			<p class="flex-grow text-gray-600 dark:text-gray-400">{en.pricing.studio.description}</p>
+			<p class="prose flex-grow text-gray-600 dark:text-gray-300">
+				{en.pricing.studio.description}
+			</p>
 		</div>
 
 		<div
@@ -49,7 +53,7 @@
 			<p class="mb-4 text-xl font-bold text-gray-800 dark:text-gray-200">
 				{en.pricing.squad.price}
 			</p>
-			<p class="flex-grow text-gray-600 dark:text-gray-400">{en.pricing.squad.description}</p>
+			<p class="prose flex-grow text-gray-600 dark:text-gray-300">{en.pricing.squad.description}</p>
 		</div>
 
 		<div
@@ -61,7 +65,9 @@
 			<p class="mb-4 text-xl font-bold text-gray-800 dark:text-gray-200">
 				{en.pricing.private.price}
 			</p>
-			<p class="flex-grow text-gray-600 dark:text-gray-400">{en.pricing.private.description}</p>
+			<p class="prose flex-grow text-gray-600 dark:text-gray-300">
+				{en.pricing.private.description}
+			</p>
 		</div>
 	</div>
 </div>
