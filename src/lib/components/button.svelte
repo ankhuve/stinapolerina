@@ -28,7 +28,7 @@
 	const variants = {
 		primary: 'bg-violet-300 border border-violet-400 text-white hover:bg-violet-400/90',
 		secondary:
-			'bg-gray-400/80 border border-gray-500 text-white hover:bg-gray-400 dark:bg-gray-300 dark:text-gray-900 dark:hover:bg-gray-400/90',
+			'bg-gray-400/80 border border-gray-500 text-white hover:bg-gray-400 dark:bg-gray-500 dark:text-gray-900 dark:hover:bg-gray-400/90 dark:border-gray-500',
 		ghost: 'hover:bg-gray-200/50 dark:hover:bg-gray-700/50'
 	};
 

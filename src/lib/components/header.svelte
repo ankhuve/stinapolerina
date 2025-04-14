@@ -39,7 +39,7 @@
 	<nav class="mx-auto flex h-12 items-center justify-between px-4 py-3 md:px-6">
 		<a
 			href="/"
-			class="text-violet-300 md:text-2xl md:font-light dark:text-pink-500"
+			class="text-violet-300 md:text-2xl md:font-light dark:text-violet-500"
 			onclick={closeMobileMenu}
 		>
 			stinapolerina
@@ -48,16 +48,16 @@
 		<div class="hidden items-center space-x-6 md:flex">
 			<a
 				href="/pricing"
-				class="text-base font-medium transition-colors hover:text-violet-400 dark:hover:text-pink-400 {isPricingActive
-					? 'text-violet-400 dark:text-pink-500'
+				class="text-base font-medium transition-colors hover:text-violet-400 dark:hover:text-violet-400 {isPricingActive
+					? 'text-violet-400 dark:text-violet-500'
 					: 'text-gray-700 dark:text-gray-300'}"
 			>
 				Pricing
 			</a>
 			<a
 				href="/locations"
-				class="text-base font-medium transition-colors hover:text-violet-400 dark:hover:text-pink-400 {isLocationsActive
-					? 'text-violet-400 dark:text-pink-500'
+				class="text-base font-medium transition-colors hover:text-violet-400 dark:hover:text-violet-400 {isLocationsActive
+					? 'text-violet-400 dark:text-violet-500'
 					: 'text-gray-700 dark:text-gray-300'}"
 			>
 				Locations
@@ -68,7 +68,7 @@
 					size="sm"
 					onclick={() => changeLanguage('en')}
 					addClass={currentLocale === 'en'
-						? 'font-bold text-violet-400 dark:text-pink-500'
+						? 'font-bold text-violet-400 dark:text-violet-500'
 						: 'text-gray-500 dark:text-gray-400'}
 					aria-label="Switch to English"
 				>
@@ -79,7 +79,7 @@
 					size="sm"
 					onclick={() => changeLanguage('sv')}
 					addClass={currentLocale === 'sv'
-						? 'font-bold text-violet-400 dark:text-pink-500'
+						? 'font-bold text-violet-400 dark:text-violet-500'
 						: 'text-gray-500 dark:text-gray-400'}
 					aria-label="Byt till Svenska"
 				>
@@ -91,7 +91,7 @@
 		<div class="flex items-center md:hidden">
 			<button
 				onclick={toggleMobileMenu}
-				class="inline-flex cursor-pointer items-center justify-center rounded-md text-gray-700 hover:bg-gray-100 hover:text-violet-400 focus:ring-2 focus:ring-pink-500 focus:outline-none focus:ring-inset dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-pink-400"
+				class="inline-flex cursor-pointer items-center justify-center rounded-md text-gray-700 hover:bg-gray-100 hover:text-violet-400 focus:ring-2 focus:ring-violet-500 focus:outline-none focus:ring-inset dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-violet-400"
 				aria-controls="mobile-menu"
 				aria-expanded={mobileMenuOpen}
 				aria-label="Open main menu"
@@ -124,7 +124,7 @@
 		>
 			<button
 				onclick={toggleMobileMenu}
-				class="absolute top-4 right-4 inline-flex cursor-pointer items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-violet-400 focus:ring-2 focus:ring-pink-500 focus:outline-none focus:ring-inset dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-pink-400"
+				class="absolute top-4 right-4 inline-flex cursor-pointer items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-violet-400 focus:ring-2 focus:ring-violet-500 focus:outline-none focus:ring-inset dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-violet-400"
 				aria-controls="mobile-menu"
 				aria-expanded={mobileMenuOpen}
 				aria-label="Close main menu"
@@ -148,8 +148,8 @@
 				<a
 					href="/"
 					class="block text-5xl font-semibold {isHomeActive
-						? 'text-violet-400 dark:text-pink-500'
-						: 'text-gray-800 dark:text-gray-200'} hover:text-violet-400 dark:hover:text-pink-400"
+						? 'text-violet-400 dark:text-violet-500'
+						: 'text-gray-800 dark:text-gray-200'} hover:text-violet-400 dark:hover:text-violet-400"
 					onclick={closeMobileMenu}
 				>
 					stinapolerina
@@ -157,8 +157,8 @@
 				<a
 					href="/pricing"
 					class="block text-3xl font-semibold {isPricingActive
-						? 'text-violet-400 dark:text-pink-500'
-						: 'text-gray-800 dark:text-gray-200'} hover:text-violet-400 dark:hover:text-pink-400"
+						? 'text-violet-400 dark:text-violet-500'
+						: 'text-gray-800 dark:text-gray-200'} hover:text-violet-400 dark:hover:text-violet-400"
 					onclick={closeMobileMenu}
 				>
 					Pricing
@@ -166,8 +166,8 @@
 				<a
 					href="/locations"
 					class="block text-3xl font-semibold {isLocationsActive
-						? 'text-violet-400 dark:text-pink-500'
-						: 'text-gray-800 dark:text-gray-200'} hover:text-violet-400 dark:hover:text-pink-400"
+						? 'text-violet-400 dark:text-violet-500'
+						: 'text-gray-800 dark:text-gray-200'} hover:text-violet-400 dark:hover:text-violet-400"
 					onclick={closeMobileMenu}
 				>
 					Locations
@@ -178,7 +178,7 @@
 						size="lg"
 						onclick={() => changeLanguage('en')}
 						addClass={currentLocale === 'en'
-							? 'font-bold text-violet-400 dark:text-pink-500'
+							? 'font-bold text-violet-400 dark:text-violet-500'
 							: 'text-gray-500 dark:text-gray-400'}
 						aria-label="Switch to English"
 					>
@@ -189,7 +189,7 @@
 						size="lg"
 						onclick={() => changeLanguage('sv')}
 						addClass={currentLocale === 'sv'
-							? 'font-bold text-violet-400 dark:text-pink-500'
+							? 'font-bold text-violet-400 dark:text-violet-500'
 							: 'text-gray-500 dark:text-gray-400'}
 						aria-label="Byt till Svenska"
 					>

@@ -29,9 +29,9 @@
 
 	<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 		<div
-			class="flex flex-col rounded-lg border border-transparent bg-white p-6 shadow-md transition-colors hover:border-violet-300 dark:bg-gray-800 dark:hover:border-pink-700"
+			class="flex flex-col rounded-lg border border-transparent bg-white p-6 shadow-md transition-colors hover:border-violet-300 dark:bg-gray-800 dark:hover:border-violet-700"
 		>
-			<h2 class="mb-3 text-2xl font-semibold text-violet-400 dark:text-pink-400">
+			<h2 class="mb-3 text-2xl font-semibold text-violet-400 dark:text-violet-400">
 				{en.pricing.studio.title}
 			</h2>
 			<p class="mb-4 text-xl font-bold text-gray-800 dark:text-gray-200">
@@ -41,9 +41,9 @@
 		</div>
 
 		<div
-			class="flex flex-col rounded-lg border border-transparent bg-white p-6 shadow-md transition-colors hover:border-violet-300 dark:bg-gray-800 dark:hover:border-pink-700"
+			class="flex flex-col rounded-lg border border-transparent bg-white p-6 shadow-md transition-colors hover:border-violet-300 dark:bg-gray-800 dark:hover:border-violet-700"
 		>
-			<h2 class="mb-3 text-2xl font-semibold text-violet-400 dark:text-pink-400">
+			<h2 class="mb-3 text-2xl font-semibold text-violet-400 dark:text-violet-400">
 				{en.pricing.squad.title}
 			</h2>
 			<p class="mb-4 text-xl font-bold text-gray-800 dark:text-gray-200">
@@ -53,9 +53,9 @@
 		</div>
 
 		<div
-			class="flex flex-col rounded-lg border border-transparent bg-white p-6 shadow-md transition-colors hover:border-violet-300 dark:bg-gray-800 dark:hover:border-pink-700"
+			class="flex flex-col rounded-lg border border-transparent bg-white p-6 shadow-md transition-colors hover:border-violet-300 dark:bg-gray-800 dark:hover:border-violet-700"
 		>
-			<h2 class="mb-3 text-2xl font-semibold text-violet-400 dark:text-pink-400">
+			<h2 class="mb-3 text-2xl font-semibold text-violet-400 dark:text-violet-400">
 				{en.pricing.private.title}
 			</h2>
 			<p class="mb-4 text-xl font-bold text-gray-800 dark:text-gray-200">
