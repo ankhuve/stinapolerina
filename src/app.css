@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-primary: oklch(89.4% 0.057 293.283);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply bg-gray-50 text-gray-800 antialiased;
+}
