@@ -26,7 +26,8 @@
 
 	// Variant styles
 	const variants = {
-		primary: 'bg-violet-300 border border-violet-400 text-white hover:bg-violet-400/90',
+		primary:
+			'bg-violet-300 border border-violet-400 text-white hover:bg-violet-400/90 dark:bg-violet-400 dark:border-violet-500 dark:text-white dark:hover:bg-violet-500 dark:hover:border-violet-600',
 		secondary:
 			'bg-gray-400/80 border border-gray-500 text-white hover:bg-gray-400 dark:bg-gray-500 dark:hover:bg-gray-600 dark:border-gray-500',
 		ghost: 'hover:bg-gray-200/50 dark:hover:bg-gray-700/50'
